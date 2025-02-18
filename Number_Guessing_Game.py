@@ -10,6 +10,7 @@ while(guess>0):
         break
     else:
         guess-=1
+        print("Guesses left: ",guess)
         if choosen_number<original_number:
             print("Guess a big number than ",choosen_number)
         else:
